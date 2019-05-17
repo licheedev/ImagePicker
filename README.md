@@ -1,3 +1,17 @@
+```gradle
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+	dependencies {
+	        implementation 'com.github.licheedev:ImagePicker:0.6.1fix'
+	}
+```
+
+
 # ImagePicker
 Android自定义相册，完全仿微信UI，实现了拍照、图片选择（单选/多选）、 裁剪 、旋转、等功能。
 
